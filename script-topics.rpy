@@ -14,9 +14,6 @@ define letters_only = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 define mas_did_monika_battery = False
 define mas_sensitive_limit = 3
 
-init 10 python:
-    config.console=True
-
 init -2 python in mas_topics:
 
     # CONSTANTS
